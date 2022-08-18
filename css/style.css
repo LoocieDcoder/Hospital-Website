@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    --green: #026060;
-    --black: #444;
+    --green: #45bba8;
+    --black: #4e4e4c;
     --light-color: #777;
     --box-shadow: .5rem .5rem 0 rgba(4, 156, 131, 0.2);
     /*--text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);*/
@@ -91,7 +91,7 @@ section:nth-child(even) {
     left: 0;
     right: 0;
     z-index: 1000;
-    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1.5rem #4e4e4c;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -519,7 +519,7 @@ section:nth-child(even) {
     text-align: center;
     font-size: 2rem;
     color: var(--light-color);
-    border-top: .1rem solid rgba(0, 0, 0, .1);
+    border-top: .1rem solid #4e4e4c;
 }
 
 .footer .credit span {
